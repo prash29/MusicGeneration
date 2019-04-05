@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="card   text-center">
+      <div class="card-header bg-primary text-white">
+        <div class="card-text">
+          <h2>Music Generation</h2>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row">
+            <label for="file-upload" class="custom-file-upload">
+                Custom Upload
+            </label>
+            <input id="file-upload" type="file" [(ngModel)]="currentInput" (change)="onFileSelected($event)"/>
+            <audio controls autoplay *ngIf="localUrl" id="audio">
+              <source [src]="localUrl" type="audio/mpeg" >
+            </audio>
+        </div>
+        
+      </div>
+    </div>
+  </div>
