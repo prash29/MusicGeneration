@@ -2,12 +2,16 @@
 
 
 ###########################################################################
+
 Instructions for running ================>>>>>>>
 
 >>>> cd client and then ng serve to start front end ===> localhost:4200 
+
 >>>> cd server and then npm start or node index.js to run srver ====> running at localhost:3000
 
 ###########################################################################
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
 ## Development server
